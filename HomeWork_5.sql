@@ -84,8 +84,8 @@ select
 		PRODUCT_NAME
         from product_information
         where LIST_PRICE > (select LIST_PRICE
-								from product_information 
-									where PRODUCT_NAME = 'LaserPro 600/6/BW');
+				from product_information 
+				where PRODUCT_NAME = 'LaserPro 600/6/BW');
         
         
         
